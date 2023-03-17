@@ -1,0 +1,35 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('./assets/fonts/Montserrat/static/Montserrat-Regular.ttf');
+    font-weight:400
+}
+@font-face {
+    font-family: 'Montserrat-Light';
+    src: url('./assets/fonts/Montserrat/static/Montserrat-Light.ttf');
+}
+@font-face {
+    font-family: 'Montserrat-Medium';
+    src: url('./assets/fonts/Montserrat/static/Montserrat-Medium.ttf');
+    
+}
+@font-face {
+    font-family: 'Montserrat-SemiBold';
+    src: url('./assets/fonts/Montserrat/static/Montserrat-SemiBold.ttf');
+    
+}
+body{
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+}
+p{
+    color: #5e626c    ;
+}
+.cardgradient{
+    background-image:linear-gradient(314.91deg,#246930,#1ab700 98.64%)
+
+}
